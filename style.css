@@ -47,11 +47,11 @@ footer {
 }
 
 #map {
-  width: 200vw;
-  max-width: none;
-  height: 85vh;
-  height: 400px;
-  margin-top: 2rem;
-  border: 2px solid #a51c30;
-  border-radius: 4px;
+  width: 100vw;              /* Full viewport width */
+  max-width: 1600px;         /* Optional cap so it doesn’t stretch too much */
+  height: 85vh;              /* Nice tall map */
+  margin: 0 auto;            /* Center horizontally */
+  display: block;            /* Required for margin:auto to work */
+  border-radius: 12px;       /* Optional: rounded edges */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  /* Optional: subtle shadow */
 }
